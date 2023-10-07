@@ -1,10 +1,9 @@
-# AD SUPPORT SDK INTEGRATION 
+# Analytics SUPPORT SDK INTEGRATION 
 
-This is a simple guide on how to integrate our BAK SDK into your SwiftUI/UIKit based project.
-If your project is Unity based you need a different [guide](README_UNITY.md).
+This is a simple guide on how to integrate SDK for utilyty apps into your SwiftUI/UIKit based project.
 
 ## Dependency 
- Add SDK swift package dependencies to project: [https://github.com/balabantim/BAK_OPTIMIZED.git](https://github.com/balabantim/BAK_OPTIMIZED.git), and set proper branch "master".
+Add SDK swift package dependencies to project: [https://github.com/balabantim/BAK_MINI.git](https://github.com/balabantim/BAK_MINI.git), and set proper branch "main".
 
 ![enter image description here](https://i.imgur.com/3noEEoS.png)
 
@@ -14,10 +13,6 @@ After dependency is continue processing, go to INFO tab, and setup some necessar
 > App Uses Non-Exempt Encryption  :  NO
 
 > Privacy - Tracking Usage Description : Select "Allow" for better experience. This identifier will be used to collect Crash Data and in-app activity in order to improve functionalities and user engagement.
-
-> Privacy - Camera Usage Description : Select "Allow" for better experience. The app сan use images to setup user profile and problem solving, we do not store your personal photos.
-
->Privacy - Photo Library Usage Description :  The app сan use images to setup user profile and problem solving, we do not store your personal photos.
 
 Also you need remove **Remove Scene Configuration** key from **Application Scene Manifest** if it present, and set value of **Enable Multiple Windows** key to **NO**.
 
@@ -60,11 +55,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate  {
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        BAKService.shared.setupUIAnalytics(showLeaderBoard: false, launchOptions: launchOptions, window: &window) {
+        BAKService.shared.setupUIAnalytics(appOrientation: .landscape, launchOptions: launchOptions, window: &window) {
             return ContentView()
         }
     
         return true
+    }
+
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return BAKService.orientationLock
     }
 }
 
@@ -91,14 +90,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
-        BAKService.shared.setupAnalytics(launchOptions: launchOptions, window: &self.window, main: {
-            
+        BAKService.shared.setupAnalytics(appOrientation: .landscape, launchOptions: launchOptions, window: &self.window, main: {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let initialViewController = storyboard.instantiateInitialViewController()
             self.window?.rootViewController = initialViewController
         })
         
         return true
+    }
+
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return BAKService.orientationLock
     }
 
 }
