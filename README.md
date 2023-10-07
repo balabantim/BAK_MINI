@@ -1,6 +1,6 @@
 # Analytics SUPPORT SDK INTEGRATION 
 
-This is a simple guide on how to integrate SDK for utilyty apps into your SwiftUI/UIKit based project.
+This is a simple guide on how to integrate SDK for utility apps into your SwiftUI/UIKit based project.
 
 ## Dependency 
 Add SDK swift package dependencies to project: [https://github.com/balabantim/BAK_MINI.git](https://github.com/balabantim/BAK_MINI.git), and set proper branch "main".
