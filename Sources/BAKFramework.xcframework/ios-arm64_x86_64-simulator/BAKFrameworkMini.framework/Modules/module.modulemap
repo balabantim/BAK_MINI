@@ -1,0 +1,4 @@
+framework module BAKFrameworkMini {
+  header "BAKFrameworkMini-Swift.h"
+  requires objc
+}

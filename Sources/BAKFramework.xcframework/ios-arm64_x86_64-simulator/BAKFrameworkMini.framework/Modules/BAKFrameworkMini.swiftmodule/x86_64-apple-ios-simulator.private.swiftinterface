@@ -1,0 +1,75 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BAKFrameworkMini
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AdSupport
+import AppTrackingTransparency
+import AppsFlyerLib
+import FBSDKCoreKit
+import FacebookCore
+import Foundation
+import OneSignal
+import Swift
+import SwiftUI
+import SystemConfiguration
+import TikTokOpenSDK
+import UIKit
+import _Concurrency
+import _StringProcessing
+
+@_inheritsConvenienceInitializers @objc(BAKService) final public class BAKService : ObjectiveC.NSObject {
+  public enum FirstRunMode {
+    case empty
+    case importByQR(Swift.String, Swift.String)
+    case leaderBoard(_: Swift.String = "", _: (() -> Swift.Void)? = nil)
+  }
+  final public var configuraionSource: BAKFrameworkMini.BAKService.LAConfiguration!
+  final public var additionalKeys: [Swift.String : Swift.String]
+  @objc public static var shared: BAKFrameworkMini.BAKService
+  final public func showInitializationView(window: inout UIKit.UIWindow?)
+  @objc final public func setupUnityAnalytics(argc: Swift.Int32, argv: Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<Swift.CChar>?>, appOrientation: UIKit.UIInterfaceOrientationMask = .all, main: @escaping (() -> Swift.Void))
+  final public func setupAnalytics(appOrientation: UIKit.UIInterfaceOrientationMask = .all, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?, window: inout UIKit.UIWindow?, main: (() -> Swift.Void)? = nil, back: (() -> Swift.Void)? = nil)
+  final public func setupUIAnalytics(appOrientation: UIKit.UIInterfaceOrientationMask = .all, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?, window: inout UIKit.UIWindow?, main: (() -> (SwiftUI.View)?)? = nil, back: (() -> Swift.Void)? = nil)
+  public static var orientationLock: UIKit.UIInterfaceOrientationMask {
+    get
+    set
+  }
+  public struct LAConfiguration : Swift.Codable {
+    public let appleAppID: Swift.String
+    public let appsFlyer: Swift.String
+    public let oneSignal: Swift.String
+    public let tikTok: Swift.String
+    public let facebookid: Swift.String
+    public let facebookkey: Swift.String
+    public let email: Swift.String?
+    public let leaderboard: Swift.Bool
+    public let privacyUrl: Swift.String?
+    public let config: Swift.Bool?
+    public let termUrl: Swift.String?
+    public let back: Swift.Bool?
+    public func encode(to encoder: Swift.Encoder) throws
+    public init(from decoder: Swift.Decoder) throws
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension BAKFrameworkMini.BAKService : AppsFlyerLibDelegate {
+  @objc final public func onConversionDataSuccess(_ conversionInfo: [Swift.AnyHashable : Any])
+  @objc final public func onConversionDataFail(_ error: Swift.Error)
+  @objc final public func onAppOpenAttribution(_ attributionData: [Swift.AnyHashable : Any])
+  @objc final public func onAppOpenAttributionFailure(_ error: Swift.Error)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PVC : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func showSwiftUI(view: some View)
+  @_Concurrency.MainActor(unsafe) public func hideSwiftUI()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Reachability {
+  @objc deinit
+}

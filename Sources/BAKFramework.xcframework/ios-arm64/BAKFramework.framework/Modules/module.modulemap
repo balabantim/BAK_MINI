@@ -1,4 +1,0 @@
-framework module BAKFramework {
-  header "BAKFramework-Swift.h"
-  requires objc
-}

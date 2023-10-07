@@ -1,0 +1,2500 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "OneSignal",
+        "printedName": "OneSignal",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "AppsFlyerLib",
+        "printedName": "AppsFlyerLib",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "TikTokOpenSDK",
+        "printedName": "TikTokOpenSDK",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "FacebookCore",
+        "printedName": "FacebookCore",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "FBSDKCoreKit",
+        "printedName": "FBSDKCoreKit",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BAKService",
+        "printedName": "BAKService",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "FirstRunMode",
+            "printedName": "FirstRunMode",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "empty",
+                "printedName": "empty",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BAKFrameworkMini.BAKService.FirstRunMode.Type) -> BAKFrameworkMini.BAKService.FirstRunMode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FirstRunMode",
+                        "printedName": "BAKFrameworkMini.BAKService.FirstRunMode",
+                        "usr": "s:16BAKFrameworkMini10BAKServiceC12FirstRunModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BAKFrameworkMini.BAKService.FirstRunMode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FirstRunMode",
+                            "printedName": "BAKFrameworkMini.BAKService.FirstRunMode",
+                            "usr": "s:16BAKFrameworkMini10BAKServiceC12FirstRunModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC12FirstRunModeO5emptyyA2EmF",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC12FirstRunModeO5emptyyA2EmF",
+                "moduleName": "BAKFrameworkMini"
+              },
+              {
+                "kind": "Var",
+                "name": "importByQR",
+                "printedName": "importByQR",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BAKFrameworkMini.BAKService.FirstRunMode.Type) -> (Swift.String, Swift.String) -> BAKFrameworkMini.BAKService.FirstRunMode",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String) -> BAKFrameworkMini.BAKService.FirstRunMode",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FirstRunMode",
+                            "printedName": "BAKFrameworkMini.BAKService.FirstRunMode",
+                            "usr": "s:16BAKFrameworkMini10BAKServiceC12FirstRunModeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BAKFrameworkMini.BAKService.FirstRunMode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FirstRunMode",
+                            "printedName": "BAKFrameworkMini.BAKService.FirstRunMode",
+                            "usr": "s:16BAKFrameworkMini10BAKServiceC12FirstRunModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC12FirstRunModeO10importByQRyAESS_SStcAEmF",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC12FirstRunModeO10importByQRyAESS_SStcAEmF",
+                "moduleName": "BAKFrameworkMini"
+              },
+              {
+                "kind": "Var",
+                "name": "leaderBoard",
+                "printedName": "leaderBoard",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BAKFrameworkMini.BAKService.FirstRunMode.Type) -> (Swift.String, (() -> ())?) -> BAKFrameworkMini.BAKService.FirstRunMode",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, (() -> ())?) -> BAKFrameworkMini.BAKService.FirstRunMode",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FirstRunMode",
+                            "printedName": "BAKFrameworkMini.BAKService.FirstRunMode",
+                            "usr": "s:16BAKFrameworkMini10BAKServiceC12FirstRunModeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, (() -> ())?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "(() -> ())?",
+                                "children": [
+                                  {
+                                    "kind": "TypeFunc",
+                                    "name": "Function",
+                                    "printedName": "() -> ()",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Void",
+                                        "printedName": "()"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Void",
+                                        "printedName": "()"
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BAKFrameworkMini.BAKService.FirstRunMode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FirstRunMode",
+                            "printedName": "BAKFrameworkMini.BAKService.FirstRunMode",
+                            "usr": "s:16BAKFrameworkMini10BAKServiceC12FirstRunModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC12FirstRunModeO11leaderBoardyAESS_yycSgtcAEmF",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC12FirstRunModeO11leaderBoardyAESS_yycSgtcAEmF",
+                "moduleName": "BAKFrameworkMini"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:16BAKFrameworkMini10BAKServiceC12FirstRunModeO",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC12FirstRunModeO",
+            "moduleName": "BAKFrameworkMini",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "configuraionSource",
+            "printedName": "configuraionSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "BAKFrameworkMini.BAKService.LAConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LAConfiguration",
+                    "printedName": "BAKFrameworkMini.BAKService.LAConfiguration",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16BAKFrameworkMini10BAKServiceC18configuraionSourceAC15LAConfigurationVSgvp",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC18configuraionSourceAC15LAConfigurationVSgvp",
+            "moduleName": "BAKFrameworkMini",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "BAKFrameworkMini.BAKService.LAConfiguration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LAConfiguration",
+                        "printedName": "BAKFrameworkMini.BAKService.LAConfiguration",
+                        "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC18configuraionSourceAC15LAConfigurationVSgvg",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC18configuraionSourceAC15LAConfigurationVSgvg",
+                "moduleName": "BAKFrameworkMini",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "BAKFrameworkMini.BAKService.LAConfiguration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LAConfiguration",
+                        "printedName": "BAKFrameworkMini.BAKService.LAConfiguration",
+                        "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC18configuraionSourceAC15LAConfigurationVSgvs",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC18configuraionSourceAC15LAConfigurationVSgvs",
+                "moduleName": "BAKFrameworkMini",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC18configuraionSourceAC15LAConfigurationVSgvM",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC18configuraionSourceAC15LAConfigurationVSgvM",
+                "moduleName": "BAKFrameworkMini",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "additionalKeys",
+            "printedName": "additionalKeys",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16BAKFrameworkMini10BAKServiceC14additionalKeysSDyS2SGvp",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC14additionalKeysSDyS2SGvp",
+            "moduleName": "BAKFrameworkMini",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC14additionalKeysSDyS2SGvg",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC14additionalKeysSDyS2SGvg",
+                "moduleName": "BAKFrameworkMini",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC14additionalKeysSDyS2SGvs",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC14additionalKeysSDyS2SGvs",
+                "moduleName": "BAKFrameworkMini",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC14additionalKeysSDyS2SGvM",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC14additionalKeysSDyS2SGvM",
+                "moduleName": "BAKFrameworkMini",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BAKService",
+                "printedName": "BAKFrameworkMini.BAKService",
+                "usr": "c:@M@BAKFrameworkMini@objc(cs)BAKService"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BAKFrameworkMini@objc(cs)BAKService(cpy)shared",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC6sharedACvpZ",
+            "moduleName": "BAKFrameworkMini",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BAKService",
+                    "printedName": "BAKFrameworkMini.BAKService",
+                    "usr": "c:@M@BAKFrameworkMini@objc(cs)BAKService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BAKFrameworkMini@objc(cs)BAKService(cm)shared",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC6sharedACvgZ",
+                "moduleName": "BAKFrameworkMini",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BAKService",
+                    "printedName": "BAKFrameworkMini.BAKService",
+                    "usr": "c:@M@BAKFrameworkMini@objc(cs)BAKService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BAKFrameworkMini@objc(cs)BAKService(cm)setShared:",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC6sharedACvsZ",
+                "moduleName": "BAKFrameworkMini",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC6sharedACvMZ",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC6sharedACvMZ",
+                "moduleName": "BAKFrameworkMini",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "showInitializationView",
+            "printedName": "showInitializationView(window:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16BAKFrameworkMini10BAKServiceC22showInitializationView6windowySo8UIWindowCSgz_tF",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC22showInitializationView6windowySo8UIWindowCSgz_tF",
+            "moduleName": "BAKFrameworkMini",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupUnityAnalytics",
+            "printedName": "setupUnityAnalytics(argc:argv:appOrientation:main:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<Swift.Int8>?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutablePointer",
+                        "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int8",
+                            "printedName": "Swift.Int8",
+                            "usr": "s:s4Int8V"
+                          }
+                        ],
+                        "usr": "s:Sp"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sp"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BAKFrameworkMini@objc(cs)BAKService(im)setupUnityAnalyticsWithArgc:argv:appOrientation:main:",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC19setupUnityAnalytics4argc4argv14appOrientation4mainys5Int32V_SpySpys4Int8VGSgGSo011UIInterfaceJ4MaskVyyctF",
+            "moduleName": "BAKFrameworkMini",
+            "objc_name": "setupUnityAnalyticsWithArgc:argv:appOrientation:main:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupAnalytics",
+            "printedName": "setupAnalytics(appOrientation:launchOptions:window:main:back:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16BAKFrameworkMini10BAKServiceC14setupAnalytics14appOrientation13launchOptions6window4main4backySo011UIInterfaceG4MaskV_SDySo019UIApplicationLaunchI3KeyaypGSgSo8UIWindowCSgzyycSgAStF",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC14setupAnalytics14appOrientation13launchOptions6window4main4backySo011UIInterfaceG4MaskV_SDySo019UIApplicationLaunchI3KeyaypGSgSo8UIWindowCSgzyycSgAStF",
+            "moduleName": "BAKFrameworkMini",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupUIAnalytics",
+            "printedName": "setupUIAnalytics(appOrientation:launchOptions:window:main:back:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.View?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.View?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "SwiftUI.View?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16BAKFrameworkMini10BAKServiceC16setupUIAnalytics14appOrientation13launchOptions6window4main4backySo011UIInterfaceG4MaskV_SDySo019UIApplicationLaunchI3KeyaypGSgSo8UIWindowCSgz7SwiftUI4View_pSgycSgyycSgtF",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC16setupUIAnalytics14appOrientation13launchOptions6window4main4backySo011UIInterfaceG4MaskV_SDySo019UIApplicationLaunchI3KeyaypGSgSo8UIWindowCSgz7SwiftUI4View_pSgycSgyycSgtF",
+            "moduleName": "BAKFrameworkMini",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "orientationLock",
+            "printedName": "orientationLock",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16BAKFrameworkMini10BAKServiceC15orientationLockSo26UIInterfaceOrientationMaskVvpZ",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC15orientationLockSo26UIInterfaceOrientationMaskVvpZ",
+            "moduleName": "BAKFrameworkMini",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15orientationLockSo26UIInterfaceOrientationMaskVvgZ",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15orientationLockSo26UIInterfaceOrientationMaskVvgZ",
+                "moduleName": "BAKFrameworkMini",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15orientationLockSo26UIInterfaceOrientationMaskVvsZ",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15orientationLockSo26UIInterfaceOrientationMaskVvsZ",
+                "moduleName": "BAKFrameworkMini",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15orientationLockSo26UIInterfaceOrientationMaskVvMZ",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15orientationLockSo26UIInterfaceOrientationMaskVvMZ",
+                "moduleName": "BAKFrameworkMini",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "LAConfiguration",
+            "printedName": "LAConfiguration",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "appleAppID",
+                "printedName": "appleAppID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV10appleAppIDSSvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV10appleAppIDSSvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV10appleAppIDSSvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV10appleAppIDSSvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "appsFlyer",
+                "printedName": "appsFlyer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV9appsFlyerSSvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV9appsFlyerSSvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV9appsFlyerSSvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV9appsFlyerSSvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "oneSignal",
+                "printedName": "oneSignal",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV9oneSignalSSvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV9oneSignalSSvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV9oneSignalSSvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV9oneSignalSSvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "tikTok",
+                "printedName": "tikTok",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV6tikTokSSvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV6tikTokSSvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV6tikTokSSvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV6tikTokSSvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "facebookid",
+                "printedName": "facebookid",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV10facebookidSSvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV10facebookidSSvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV10facebookidSSvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV10facebookidSSvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "facebookkey",
+                "printedName": "facebookkey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV11facebookkeySSvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV11facebookkeySSvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV11facebookkeySSvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV11facebookkeySSvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "email",
+                "printedName": "email",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV5emailSSSgvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV5emailSSSgvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV5emailSSSgvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV5emailSSSgvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "leaderboard",
+                "printedName": "leaderboard",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV11leaderboardSbvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV11leaderboardSbvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV11leaderboardSbvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV11leaderboardSbvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "privacyUrl",
+                "printedName": "privacyUrl",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV10privacyUrlSSSgvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV10privacyUrlSSSgvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV10privacyUrlSSSgvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV10privacyUrlSSSgvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "config",
+                "printedName": "config",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV6configSbSgvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV6configSbSgvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV6configSbSgvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV6configSbSgvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "termUrl",
+                "printedName": "termUrl",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV7termUrlSSSgvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV7termUrlSSSgvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV7termUrlSSSgvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV7termUrlSSSgvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "back",
+                "printedName": "back",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV4backSbSgvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV4backSbSgvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV4backSbSgvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV4backSbSgvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LAConfiguration",
+                    "printedName": "BAKFrameworkMini.BAKService.LAConfiguration",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "BAKFrameworkMini",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV6encode2toys7Encoder_p_tKF",
+                "moduleName": "BAKFrameworkMini",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV",
+            "moduleName": "BAKFrameworkMini",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BAKService",
+                "printedName": "BAKFrameworkMini.BAKService",
+                "usr": "c:@M@BAKFrameworkMini@objc(cs)BAKService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BAKFrameworkMini@objc(cs)BAKService(im)init",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceCACycfc",
+            "moduleName": "BAKFrameworkMini",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onConversionDataSuccess",
+            "printedName": "onConversionDataSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BAKFrameworkMini@objc(cs)BAKService(im)onConversionDataSuccess:",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC23onConversionDataSuccessyySDys11AnyHashableVypGF",
+            "moduleName": "BAKFrameworkMini",
+            "objc_name": "onConversionDataSuccess:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onConversionDataFail",
+            "printedName": "onConversionDataFail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BAKFrameworkMini@objc(cs)BAKService(im)onConversionDataFail:",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC20onConversionDataFailyys5Error_pF",
+            "moduleName": "BAKFrameworkMini",
+            "objc_name": "onConversionDataFail:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAppOpenAttribution",
+            "printedName": "onAppOpenAttribution(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BAKFrameworkMini@objc(cs)BAKService(im)onAppOpenAttribution:",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC20onAppOpenAttributionyySDys11AnyHashableVypGF",
+            "moduleName": "BAKFrameworkMini",
+            "objc_name": "onAppOpenAttribution:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAppOpenAttributionFailure",
+            "printedName": "onAppOpenAttributionFailure(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BAKFrameworkMini@objc(cs)BAKService(im)onAppOpenAttributionFailure:",
+            "mangledName": "$s16BAKFrameworkMini10BAKServiceC27onAppOpenAttributionFailureyys5Error_pF",
+            "moduleName": "BAKFrameworkMini",
+            "objc_name": "onAppOpenAttributionFailure:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BAKFrameworkMini@objc(cs)BAKService",
+        "mangledName": "$s16BAKFrameworkMini10BAKServiceC",
+        "moduleName": "BAKFrameworkMini",
+        "objc_name": "BAKService",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PVC",
+        "printedName": "PVC",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BAKFrameworkMini@objc(cs)PVC(im)viewDidLoad",
+            "mangledName": "$s16BAKFrameworkMini3PVCC11viewDidLoadyyF",
+            "moduleName": "BAKFrameworkMini",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillLayoutSubviews",
+            "printedName": "viewWillLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BAKFrameworkMini@objc(cs)PVC(im)viewWillLayoutSubviews",
+            "mangledName": "$s16BAKFrameworkMini3PVCC22viewWillLayoutSubviewsyyF",
+            "moduleName": "BAKFrameworkMini",
+            "overriding": true,
+            "objc_name": "viewWillLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BAKFrameworkMini@objc(cs)PVC(im)viewDidLayoutSubviews",
+            "mangledName": "$s16BAKFrameworkMini3PVCC21viewDidLayoutSubviewsyyF",
+            "moduleName": "BAKFrameworkMini",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSwiftUI",
+            "printedName": "showSwiftUI(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16BAKFrameworkMini3PVCC11showSwiftUI4viewyx_t0eF04ViewRzlF",
+            "mangledName": "$s16BAKFrameworkMini3PVCC11showSwiftUI4viewyx_t0eF04ViewRzlF",
+            "moduleName": "BAKFrameworkMini",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideSwiftUI",
+            "printedName": "hideSwiftUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16BAKFrameworkMini3PVCC11hideSwiftUIyyF",
+            "mangledName": "$s16BAKFrameworkMini3PVCC11hideSwiftUIyyF",
+            "moduleName": "BAKFrameworkMini",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PVC",
+                "printedName": "BAKFrameworkMini.PVC",
+                "usr": "c:@M@BAKFrameworkMini@objc(cs)PVC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BAKFrameworkMini@objc(cs)PVC(im)initWithNibName:bundle:",
+            "mangledName": "$s16BAKFrameworkMini3PVCC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "BAKFrameworkMini",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BAKFrameworkMini.PVC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PVC",
+                    "printedName": "BAKFrameworkMini.PVC",
+                    "usr": "c:@M@BAKFrameworkMini@objc(cs)PVC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BAKFrameworkMini@objc(cs)PVC(im)initWithCoder:",
+            "mangledName": "$s16BAKFrameworkMini3PVCC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "BAKFrameworkMini",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BAKFrameworkMini@objc(cs)PVC",
+        "mangledName": "$s16BAKFrameworkMini3PVCC",
+        "moduleName": "BAKFrameworkMini",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Reachability",
+        "printedName": "Reachability",
+        "declKind": "Class",
+        "usr": "s:16BAKFrameworkMini12ReachabilityC",
+        "mangledName": "$s16BAKFrameworkMini12ReachabilityC",
+        "moduleName": "BAKFrameworkMini",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      },
+      {
+        "kind": "Import",
+        "name": "FacebookCore",
+        "printedName": "FacebookCore",
+        "declKind": "Import",
+        "moduleName": "BAKFrameworkMini"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 545,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
+      "kind": "Dictionary",
+      "offset": 817,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
+      "kind": "StringLiteral",
+      "offset": 7437,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
+      "kind": "StringLiteral",
+      "offset": 7565,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13628,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13648,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/PVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/PVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/PVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 253,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/PVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKAppDelegate.swift",
+      "kind": "Dictionary",
+      "offset": 724,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
