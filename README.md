@@ -47,7 +47,7 @@ Create and add to project **AppDelegate.swift** file, with this contents, where 
 ```Swift
 
 import UIKit
-import BAKFramework
+import BAKFrameworkMini
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate  {
@@ -81,7 +81,7 @@ Update **AppDelegate.swift** file, with this contents, do not forget use proper 
 
 ```Swift
 import UIKit
-import BAKFramework
+import BAKFrameworkMini
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
