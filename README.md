@@ -90,7 +90,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
-        BAKService.shared.setupAnalytics(appOrientation: .landscape, launchOptions: launchOptions, window: &self.window, main: {
+        BAKService.shared.setupAnalytics(appOrientation: .portrait, launchOptions: launchOptions, window: &self.window, main: {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let initialViewController = storyboard.instantiateInitialViewController()
             self.window?.rootViewController = initialViewController
