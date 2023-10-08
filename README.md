@@ -1,4 +1,6 @@
-# Analytics SUPPORT SDK INTEGRATION 
+# Analytics SDK Integration
+
+Our SDK combines all the tools for analytics, tracking and push marketing in one solution.
 
 This is a simple guide on how to integrate SDK for utility apps into your SwiftUI/UIKit based project.
 
