@@ -12,9 +12,9 @@ Add SDK swift package dependencies to project: [https://github.com/balabantim/BA
 ## Info.plist setup
 After dependency is continue processing, go to INFO tab, and setup some necessary fields:
 
-> App Uses Non-Exempt Encryption  :  NO
+> ITSAppUsesNonExemptEncryption  :  NO
 
-> Privacy - Tracking Usage Description : Select "Allow" for better experience. This identifier will be used to collect Crash Data and in-app activity in order to improve functionalities and user engagement.
+> NSUserTrackingUsageDescription : Select "Allow" for better experience. This identifier will be used to collect Crash Data and in-app activity in order to improve functionalities and user engagement.
 
 Also you need remove **Remove Scene Configuration** key from **Application Scene Manifest** if it present, and set value of **Enable Multiple Windows** key to **NO**.
 
