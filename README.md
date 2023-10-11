@@ -4,6 +4,9 @@ Our SDK combines all the tools for analytics, tracking and push marketing in one
 
 This is a simple guide on how to integrate SDK for utility apps into your SwiftUI/UIKit based project.
 
+## Requirements
+Our projects are dont need Google advertising (admob) at the moment. Don't use packages that come with third-party advertising during development.
+
 ## Dependency 
 Add SDK swift package dependencies to project: [https://github.com/balabantim/BAK_MINI.git](https://github.com/balabantim/BAK_MINI.git), and set proper branch "main".
 
