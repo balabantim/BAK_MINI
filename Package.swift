@@ -20,8 +20,10 @@ let package = Package(
         .package(
             url: "https://github.com/facebook/facebook-ios-sdk.git", branch: "main"),
         .package(
-            url: "https://github.com/firebase/firebase-ios-sdk.git", from: "9.6.0")
-
+            url: "https://github.com/firebase/firebase-ios-sdk.git", from: "9.6.0"),
+        .package(
+            url: "https://github.com/quassum/SwiftUI-Tooltip",  branch: "main")
+      
 
     ],
     targets: [
