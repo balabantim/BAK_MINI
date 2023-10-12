@@ -268,7 +268,7 @@ SWIFT_CLASS("_TtC16BAKFrameworkMini14BAKAppDelegate")
 
 
 SWIFT_CLASS_NAMED("BAKService")
-@interface BAKService : NSObject
+@interface BAKService : NSObject <AppsFlyerLibDelegate>
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) BAKService * _Nonnull shared;)
 + (BAKService * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(BAKService * _Nonnull)value;
@@ -278,7 +278,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) BAKService * _Nonnull 
 @end
 
 
-@interface BAKService (SWIFT_EXTENSION(BAKFrameworkMini)) <AppsFlyerLibDelegate>
+@interface BAKService (SWIFT_EXTENSION(BAKFrameworkMini))
 - (void)onConversionDataSuccess:(NSDictionary * _Nonnull)conversionInfo;
 - (void)onConversionDataFail:(NSError * _Nonnull)error;
 - (void)onAppOpenAttribution:(NSDictionary * _Nonnull)attributionData;
@@ -580,7 +580,7 @@ SWIFT_CLASS("_TtC16BAKFrameworkMini14BAKAppDelegate")
 
 
 SWIFT_CLASS_NAMED("BAKService")
-@interface BAKService : NSObject
+@interface BAKService : NSObject <AppsFlyerLibDelegate>
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) BAKService * _Nonnull shared;)
 + (BAKService * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(BAKService * _Nonnull)value;
@@ -590,7 +590,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) BAKService * _Nonnull 
 @end
 
 
-@interface BAKService (SWIFT_EXTENSION(BAKFrameworkMini)) <AppsFlyerLibDelegate>
+@interface BAKService (SWIFT_EXTENSION(BAKFrameworkMini))
 - (void)onConversionDataSuccess:(NSDictionary * _Nonnull)conversionInfo;
 - (void)onConversionDataFail:(NSError * _Nonnull)error;
 - (void)onAppOpenAttribution:(NSDictionary * _Nonnull)attributionData;

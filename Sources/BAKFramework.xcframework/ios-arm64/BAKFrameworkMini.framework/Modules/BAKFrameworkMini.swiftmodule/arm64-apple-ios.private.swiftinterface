@@ -17,8 +17,8 @@ import TikTokOpenSDK
 import UIKit
 import _Concurrency
 import _StringProcessing
-
-@_inheritsConvenienceInitializers @objc(BAKService) final public class BAKService : ObjectiveC.NSObject {
+//
+@_inheritsConvenienceInitializers @objc(BAKService) final public class BAKService : ObjectiveC.NSObject, AppsFlyerLibDelegate {
   public enum FirstRunMode {
     case empty
     case importByQR(Swift.String, Swift.String)
@@ -54,7 +54,7 @@ import _StringProcessing
   @objc override dynamic public init()
   @objc deinit
 }
-extension BAKFrameworkMini.BAKService : AppsFlyerLibDelegate {
+extension BAKFrameworkMini.BAKService {
   @objc final public func onConversionDataSuccess(_ conversionInfo: [Swift.AnyHashable : Any])
   @objc final public func onConversionDataFail(_ error: Swift.Error)
   @objc final public func onAppOpenAttribution(_ attributionData: [Swift.AnyHashable : Any])

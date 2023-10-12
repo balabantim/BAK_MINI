@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BAKFrameworkMini-Swift.h</key>
 		<data>
-		E+CMEep41IL0pdDR1x6KsnkUZw0=
+		/9vZirMjLGpgPCaeNLeTJxuzyFQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/BAKFrameworkMini.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bA3ZqYzGrgqIT45L3/3537oqpXo=
+		ouLTrubc1o2by4TZLXRE3AHzxzs=
 		</data>
 		<key>Modules/BAKFrameworkMini.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qfp7+nYwmg2nanHH9y7UCx1ISsY=
+		S3tdjQvmMQRCJwKO3SbsieeCnOI=
 		</data>
 		<key>Modules/BAKFrameworkMini.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/BAKFrameworkMini.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qfp7+nYwmg2nanHH9y7UCx1ISsY=
+		S3tdjQvmMQRCJwKO3SbsieeCnOI=
 		</data>
 		<key>Modules/BAKFrameworkMini.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nA0v1xIM7/K2lKFr3eaIskSICks=
+		lsjb5x5iaJgfGE++si8zwkKRXv4=
 		</data>
 		<key>Modules/BAKFrameworkMini.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bA3ZqYzGrgqIT45L3/3537oqpXo=
+		ouLTrubc1o2by4TZLXRE3AHzxzs=
 		</data>
 		<key>Modules/BAKFrameworkMini.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		z/9UngvpB8kbDZnmxpU9G+AyG1Q=
+		9JwGngIXEZqS3TLFkj58RLWn1VY=
 		</data>
 		<key>Modules/BAKFrameworkMini.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/BAKFrameworkMini.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		z/9UngvpB8kbDZnmxpU9G+AyG1Q=
+		9JwGngIXEZqS3TLFkj58RLWn1VY=
 		</data>
 		<key>Modules/BAKFrameworkMini.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ge34SLzpLpVofM3gQ6uB74CwEOo=
+		1ENf0tbddADhsqsf+EE0/PYBqBM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,21 +63,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QrU9kjxjevxnQuuM53dgRbJSPcB7gPzrL/G7UdiawqQ=
+			cBFK5gXnVl4IgmAwpHDZdCc5nu8ly09auDk7mGW4dC4=
 			</data>
 		</dict>
 		<key>Modules/BAKFrameworkMini.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8B1Y+ukvFT4MvT2sQEuiNU33xpSh61/6KK45NQlzXIQ=
+			gbAbGaNhuqIj71JWZ8SI/6clnV+VeUHxkC6bL5R+c5M=
 			</data>
 		</dict>
 		<key>Modules/BAKFrameworkMini.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TV0M6xvY2sDdSLC6NonYURbuCPGyUxNDuJtJngyI86Y=
+			PLVSYTNQWvMRXShJUXD7hma6L++z0uB7n3EHJ2yyGD8=
 			</data>
 		</dict>
 		<key>Modules/BAKFrameworkMini.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TV0M6xvY2sDdSLC6NonYURbuCPGyUxNDuJtJngyI86Y=
+			PLVSYTNQWvMRXShJUXD7hma6L++z0uB7n3EHJ2yyGD8=
 			</data>
 		</dict>
 		<key>Modules/BAKFrameworkMini.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e3oHaXATqPPaKKzQi11HcS73vYsRd6pB/7ReKdZGVHE=
+			rQGYXaSWY49ISqkSxqbAfqyGC6gWi3cMgR3Y2T6H9QM=
 			</data>
 		</dict>
 		<key>Modules/BAKFrameworkMini.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8B1Y+ukvFT4MvT2sQEuiNU33xpSh61/6KK45NQlzXIQ=
+			gbAbGaNhuqIj71JWZ8SI/6clnV+VeUHxkC6bL5R+c5M=
 			</data>
 		</dict>
 		<key>Modules/BAKFrameworkMini.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x5gfuY6+A8jtdcTDJJMrivTfLjzfz6jrAOML8LqkC2Q=
+			YQTD3GZnMTpVdJXIy3lkI96B6rc4SMAgTtSTFQECZ3s=
 			</data>
 		</dict>
 		<key>Modules/BAKFrameworkMini.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x5gfuY6+A8jtdcTDJJMrivTfLjzfz6jrAOML8LqkC2Q=
+			YQTD3GZnMTpVdJXIy3lkI96B6rc4SMAgTtSTFQECZ3s=
 			</data>
 		</dict>
 		<key>Modules/BAKFrameworkMini.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OXLM/S7Qxl45n8EbzpzK7YkT3DFglqZ36xCfReai/EI=
+			dtZHuWXMMVRpck6INrNT4expwP6v7n2iedDLfhGXFFk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
