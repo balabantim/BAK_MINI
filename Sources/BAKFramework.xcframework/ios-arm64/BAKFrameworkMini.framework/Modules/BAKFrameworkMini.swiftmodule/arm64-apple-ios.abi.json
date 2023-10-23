@@ -1550,8 +1550,8 @@
               },
               {
                 "kind": "Var",
-                "name": "config",
-                "printedName": "config",
+                "name": "blockOrganic",
+                "printedName": "blockOrganic",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1569,8 +1569,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV6configSbSgvp",
-                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV6configSbSgvp",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV12blockOrganicSbSgvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV12blockOrganicSbSgvp",
                 "moduleName": "BAKFrameworkMini",
                 "declAttributes": [
                   "HasStorage",
@@ -1600,8 +1600,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV6configSbSgvg",
-                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV6configSbSgvg",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV12blockOrganicSbSgvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV12blockOrganicSbSgvg",
                     "moduleName": "BAKFrameworkMini",
                     "implicit": true,
                     "accessorKind": "get"
@@ -1722,6 +1722,66 @@
                     "declKind": "Accessor",
                     "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV4backSbSgvg",
                     "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV4backSbSgvg",
+                    "moduleName": "BAKFrameworkMini",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "report",
+                "printedName": "report",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV6reportSbSgvp",
+                "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV6reportSbSgvp",
+                "moduleName": "BAKFrameworkMini",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16BAKFrameworkMini10BAKServiceC15LAConfigurationV6reportSbSgvg",
+                    "mangledName": "$s16BAKFrameworkMini10BAKServiceC15LAConfigurationV6reportSbSgvg",
                     "moduleName": "BAKFrameworkMini",
                     "implicit": true,
                     "accessorKind": "get"
@@ -2415,56 +2475,70 @@
     {
       "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
       "kind": "StringLiteral",
-      "offset": 701,
+      "offset": 611,
+      "length": 18,
+      "value": "\"0.1 BAKFramework\""
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
       "kind": "Dictionary",
-      "offset": 839,
+      "offset": 896,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1077,
+      "offset": 987,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1180,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
       "kind": "StringLiteral",
-      "offset": 7369,
+      "offset": 7476,
       "length": 13,
       "value": "\"orientation\""
     },
     {
       "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
       "kind": "StringLiteral",
-      "offset": 7497,
+      "offset": 7604,
       "length": 13,
       "value": "\"orientation\""
     },
     {
       "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
       "kind": "BooleanLiteral",
-      "offset": 13852,
+      "offset": 14314,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
       "kind": "BooleanLiteral",
-      "offset": 13872,
+      "offset": 14334,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sasha\/respository\/s-softteam\/BAK\/BAKSource\/BAKFramework\/BAKService.swift",
       "kind": "BooleanLiteral",
-      "offset": 21584,
+      "offset": 22910,
       "length": 5,
       "value": "false"
     },

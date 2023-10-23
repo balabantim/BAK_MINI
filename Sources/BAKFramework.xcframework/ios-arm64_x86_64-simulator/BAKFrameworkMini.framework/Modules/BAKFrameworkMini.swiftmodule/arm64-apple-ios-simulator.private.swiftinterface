@@ -45,9 +45,10 @@ import _StringProcessing
     public let email: Swift.String?
     public let leaderboard: Swift.Bool
     public let privacyUrl: Swift.String?
-    public let config: Swift.Bool?
+    public let blockOrganic: Swift.Bool?
     public let termUrl: Swift.String?
     public let back: Swift.Bool?
+    public let report: Swift.Bool?
     public func encode(to encoder: Swift.Encoder) throws
     public init(from decoder: Swift.Decoder) throws
   }
